@@ -31,7 +31,7 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://i.imgur.com/739IzOI.gif' title='Log out' width='200' alt='Video Walkthrough' /> <br>
 
-<img src='https://i.imgur.com/6x1Ba8p.gif' title='Remember log in across restart' width='200' alt='Video Walkthrough' /> <br>
+<img src='https://i.imgur.com/jpBuRFV.gif' title='Remember log in across restart' width='200' alt='Video Walkthrough' /> <br>
 
 <img src='https://i.imgur.com/Vhmrvvu.gif' title='can refresh' width='200' alt='Video Walkthrough' /> <br>
 
