@@ -183,10 +183,18 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0/280" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHx-Xv-lUb">
+                                <rect key="frame" x="319" y="296" width="46" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Pvf-fm-u5i"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="MHx-Xv-lUb" firstAttribute="top" secondItem="HBQ-fh-f3r" secondAttribute="bottom" constant="8" symbolic="YES" id="0gP-eP-voz"/>
+                            <constraint firstItem="Pvf-fm-u5i" firstAttribute="trailing" secondItem="MHx-Xv-lUb" secondAttribute="trailing" constant="10" id="6Eq-aP-Luy"/>
                             <constraint firstItem="HBQ-fh-f3r" firstAttribute="leading" secondItem="Pvf-fm-u5i" secondAttribute="leading" id="Yp8-WY-MSR"/>
                             <constraint firstItem="HBQ-fh-f3r" firstAttribute="top" secondItem="Pvf-fm-u5i" secondAttribute="top" id="h9h-Tg-w2M"/>
                             <constraint firstItem="Pvf-fm-u5i" firstAttribute="trailing" secondItem="HBQ-fh-f3r" secondAttribute="trailing" id="mIb-Mt-ChT"/>
@@ -207,6 +215,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="charCountLabel" destination="MHx-Xv-lUb" id="LFR-bX-Wkf"/>
                         <outlet property="tweetTextView" destination="HBQ-fh-f3r" id="t8c-xA-7ej"/>
                     </connections>
                 </viewController>
